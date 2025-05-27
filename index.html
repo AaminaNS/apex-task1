@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Mini Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Mini Universe</h1>
+    <p>Explore my world of learning and dreams.</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate learner exploring web development.</p>
+  </section>
+
+  <section id="gallery">
+    <h2>My Gallery</h2>
+   <!-- Example replacement for your current images -->
+<img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=200" alt="Code editor">
+<img src="https://res.cloudinary.com/dv1cjngnl/image/upload/v1748322123/pexels-pavel-danilyuk-5496464_eigjp8.jpg" alt="Laptop workspace">
+  </section>
+
+  <section id="links">
+    <h2>Links I Love</h2>
+    <ul>
+      <li><a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+      <li><a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></li>
+    </ul>
+  </section>
+
+  <section id="goals">
+    <h2>My Goals</h2>
+    <ul>
+      <li>Become a full-stack developer</li>
+      <li>Build cool websites</li>
+      <li>Learn something new every day</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Your Name"><br>
+      <input type="email" id="email" placeholder="Your Email"><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="fun">
+    <h2>Feeling Lazy?</h2>
+    <button onclick="showQuote()">Motivate Me</button>
+    <button onclick="toggleTheme()">Toggle Theme</button>
+  </section>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
